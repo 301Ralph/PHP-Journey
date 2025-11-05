@@ -1,11 +1,18 @@
 <?php
     
-    $name = "Ralph";
-    $age = 22;
-    $color = "Black";
-    $food = "Pizza";
+    $a = 15;
+    $b = 4;
 
-    echo "My name is $name, I am $age years old, my favorite color is $color, and I love $food.";
+    $sum = $a + $b;
+    $difference = $a - $b;
+    $product = $a * $b;
+    $quotient = $a / $b;
+    $modulus = $a % $b;
+    echo "Sum: $sum <br>";
+    echo "Difference: $difference <br>";
+    echo "Product: $product <br>";
+    echo "Quotient: $quotient <br>";
+    echo "Modulus: $modulus <br>";
 
 
 
