@@ -1,10 +1,10 @@
 <?php
     
-    $a = 10;
-    $b = 20;
-    $a = $a + $b; // 30
-    $b = $a - $b; // 10
-    $a = $a - $b; // 20
-    echo "a: $a, b: $b";
+    $fname = "Ralph";
+    $mname = "Aian";
+    $lname = "Escote";
+    $name = "$fname $mname $lname";
+    $name = strtoupper($name);
+    echo "Hi my name is $name";
     
 ?>
