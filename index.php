@@ -1,11 +1,11 @@
 <?php
-    $food = "Pizza";
-    $price = 10.00;
-    $qty = $_POST["qty"];
-    $total = $price * $qty;
+    $radius = $_POST ["radius"];
+    $circumference = null;
 
-    echo "Food Item: $food <br>";
-    echo "Total: $total <br>";
+    $circumference = 2 * pi() * $radius;
+
+
+    echo $circumference;
 ?>
 
 <!DOCTYPE html>
@@ -17,9 +17,9 @@
 </head>
 <body>
     <form action="index.php" method="post">
-        <label>Quantity:</label>
-        <input type="text" name="qty"><br>
-        <input type="submit" value="Total">
+        <label>Radius:</label>
+        <input type="text" name="radius"><br>
+        <input type="submit" value="radius">
     </form>
 </body>
 </html>
